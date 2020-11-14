@@ -10,7 +10,7 @@ These are small python scripts which helps converting txt files to converted bra
 **Command to run :**
 
 **Usage:**
-python main.py ****<parameter>**
+python main.py **<parameter>**
 python main.py **<file name> <parameter>**
 
 **Parameters**:
