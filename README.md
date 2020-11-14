@@ -9,16 +9,17 @@ These are small python scripts which helps converting txt files to converted bra
 
 **Command to run :**
 
-**Usage:**
-python main.py **<parameter>**
-python main.py **<file name> <parameter>**
-
-**Parameters**:
---braille | -b translate braille to text
---text | -t translate text to braille
---help | -h display this screen
---map | -m print translation map
-
+```
+Usage:
+    Usage:
+        main.py <parameter>
+        main.py <file name> <parameter>
+    Parameters:
+        -braille | --b      translate braille to text
+        -text    | --t      translate text to braille
+        -help    | --h      display this screen
+        -map     | --m      print translation map
+```
 ## The Algorithmic approach
 
 1. Split up the text into words by dividing them based on spaces and new lines (' '),('\n').
